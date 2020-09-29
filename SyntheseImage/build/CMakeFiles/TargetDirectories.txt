@@ -1,0 +1,15 @@
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/CMakeFiles/rebuild_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/CMakeFiles/edit_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/glimac/CMakeFiles/rebuild_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/glimac/CMakeFiles/glimac.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/glimac/CMakeFiles/edit_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/rebuild_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/TP1_exo3_structure_vertex.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/edit_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/TP1_exo4_quad.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/CMakeFiles/TP1_exo5_disque.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP_Template/CMakeFiles/rebuild_cache.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP_Template/CMakeFiles/TP_Template_SDLtemplate.dir
+/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP_Template/CMakeFiles/edit_cache.dir

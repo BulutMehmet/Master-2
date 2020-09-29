@@ -1,8 +1,0 @@
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/CMakeFiles/rebuild_cache.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/CMakeFiles/edit_cache.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/glimac/CMakeFiles/rebuild_cache.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/glimac/CMakeFiles/glimac.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/glimac/CMakeFiles/edit_cache.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/TPtest/CMakeFiles/rebuild_cache.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/TPtest/CMakeFiles/TPtest_SDLtemplate.dir
-/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/GLImac-Template-build/TPtest/CMakeFiles/edit_cache.dir
