@@ -32,15 +32,11 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/glimac/cmake_install.cmake")
   include("/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP1/cmake_install.cmake")
+  include("/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP2/cmake_install.cmake")
   include("/home/2ing2/mbulut/githubRepo/Master-2/SyntheseImage/build/TP_Template/cmake_install.cmake")
 
 endif()

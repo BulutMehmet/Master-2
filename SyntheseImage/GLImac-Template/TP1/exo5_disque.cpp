@@ -6,6 +6,7 @@
 #include <glimac/glm.hpp>
 
 using namespace glimac;
+using namespace std;
 const int VERTEX_ATTR_POSITION = 3;
 const int VERTEX_ATTR_COLOR = 8;
 
@@ -48,27 +49,29 @@ int main(int argc, char** argv) {
      *********************************/
 
     GLuint vbo, vao;
-
-    int nbTriangles = 10;
+    int nbTriangles;
+    cout << "entrez le nombre de triangles" << endl;
+    cin >> nbTriangles;
     float rayon = 0.5f;
     glm::vec2 origin(0.f, 0.f);
-    float angle = 2 * glm::pi<float>() / nbTriangles;
-    Vertex2DColor vertices[nbTriangles];
-
+    float angle = (2 * glm::pi<float>()) / nbTriangles;
+    Vertex2DColor vertices[nbTriangles * 3];
+    
     for( int i = 0; i < nbTriangles; i++) {
+        cout << "angle = " << angle*i << " " << 2 * glm::pi<float>() << endl;
         float pointAX = rayon * glm::cos(angle * i);
         float pointAY = rayon * glm::sin(angle * i);
         float pointBX = rayon * glm::cos(angle * (i+1) );
         float pointBY = rayon * glm::sin(angle * (i+1) );
 
-        vertices[i] = Vertex2DColor(origin, glm::vec3(1.f, 0.f, 0.f));
+        vertices[i*3] = Vertex2DColor(origin, glm::vec3(1.f, 0.f, 0.f));
         vertices[i*3 + 1] = Vertex2DColor(glm::vec2(pointAX, pointAY), glm::vec3(0.f, 1.f, 0.f));
-        vertices[i*3 + 2] = Vertex2DColor(glm::vec2(pointBX, pointBY), glm::vec3(0.f, 0.f, 1.f));
+        vertices[i*3 + 2] = Vertex2DColor(glm::vec2(pointBX, pointBY), glm::vec3(0.f, 1.f, 0.f));
     }
 
     glGenBuffers(1, &vbo);
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, nbTriangles * sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, nbTriangles * 3 * sizeof(Vertex2DColor), vertices, GL_STATIC_DRAW);
     glBindBuffer(0, vbo);
 
     glGenVertexArrays(1, &vao);
